@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vashnak's page</title>
+</head>
+<body>
+
+<div>
+    <h1>Welcome to my github page</h1>
+    <h2>You can find my libraries here:</h2>
+    <ul>
+        <li>
+            <a href="/react-toasts">react-toasts</a>
+        </li>
+    </ul>
+</div>
+
+<style>
+    body, html {
+        background-color: #11181E;
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Catamaran Thin', sans-serif;
+    }
+
+    h1 {
+        color: white;
+        font-size: 3em;
+        line-height: 0.5em;
+    }
+
+    h2 {
+        color: #71808A;
+        font-size: 2.5em;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    ul li a {
+        position: relative;
+        color: white;
+        text-decoration: none;
+        font-size: 2em;
+    }
+
+    ul li a:before {
+        position: absolute;
+        left: -32px;
+        top: calc(1em - 0.4em);
+        content: '';
+        width: 0.5em;
+        height: 0.5em;
+        border-radius: 99px;
+        background-color: white;
+        display: block;
+    }
+
+    ul li a:hover {
+        color: #c7c7c7;
+    }
+
+    ul li a:hover:before {
+        background-color: #c7c7c7;
+    }
+
+</style>
+</body>
+</html>
