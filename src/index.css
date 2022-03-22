@@ -1,0 +1,55 @@
+body, html {
+  background-color: #11181E;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Catamaran Thin', sans-serif;
+}
+
+.App h1 {
+  color: white;
+  font-size: 3em;
+  line-height: 1.5em;
+}
+
+.App h2 {
+  color: #71808A;
+  font-size: 2.5em;
+}
+
+.App ul {
+  margin-top: 36px;
+  margin-left: 36px;
+  list-style-type: none;
+}
+
+.App ul li a {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+.App ul li a:before {
+  position: absolute;
+  left: -32px;
+  top: calc(1em - 0.4em);
+  content: '';
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 99px;
+  background-color: white;
+  display: block;
+}
+
+.App ul li a:hover {
+  color: #c7c7c7;
+}
+
+.App ul li a:hover:before {
+  background-color: #c7c7c7;
+}
